@@ -1,0 +1,144 @@
+body{
+	background-color: #FAFAFA;
+	font-family: Helvetica, 'Source Sans Pro';
+	color:#454545;
+}
+ul li, p{
+	font-size: 120%;
+}
+div .header{
+	background-color: #FFF;
+}
+.header{
+	display: block;
+	background-color: #ffffff;
+	padding:0 10% 0 10%;
+	margin: 0 0 0 0;
+}
+h1{
+	font-size:210%;
+}
+h2{
+	text-align: center;
+	color:#79b478;
+	font-size:180%;
+}
+h4{
+	font-size: 140%;
+}
+.wrapper{
+	padding:0 10% 0 10%;
+	margin: 0 0 0 0;
+}
+.photo{
+	width:23%;
+	padding: 0 1% 0 1%;
+	float:left;
+	margin: auto 0;
+}
+.photo-text{
+	width:23%;
+	padding:0 1% 0 1%;
+	float:left;
+	text-align: justify;
+}
+#name a{
+	text-align:center;
+	text-decoration: none;
+	color:#79b478;
+	float:left;
+	width:40%;
+}
+.menu{
+	text-align:center;
+	float:right;
+	width:20%;
+}
+.menu h3 a{
+	background-color: #79B478;
+	text-decoration: none;
+	color:#ffffff;
+	border-radius: 10%;
+	padding: 1% 3%;
+	margin: 5% auto;
+	text-align: center;
+}
+.menu h3 a:hover{
+	background-color: #3f993d;
+}
+.menu h3 a:active{
+	background-color: #264b25;
+}
+.clear{
+	clear:both;
+	height: 5px;
+	background-color: #E9EAEE;
+	padding:0 0 0 0;
+	margin: 5px 0 5px 0;
+}
+.interest{
+	width:23%;
+	float:left;
+	padding:0 1% 0 1%;
+	text-align: justify;
+}
+.spoiler{
+	cursor:pointer;
+}
+.spoiler summary{
+	text-align: center;
+	margin:1% 0 1% 0;
+	font-size:140%;
+	font-weight:500;
+	border:2px solid #A3C5FC;
+}
+.anons{
+	width:73%;
+	padding:0 1% 0 1%;
+	float:left;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-device-width: 1365px){
+	.photo{
+		margin-top: 10%;
+	}
+}
+@media only screen and (max-device-width: 769px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    h1{
+    	font-size:350%;
+    }
+    h2{
+    	font-size:320%;
+    }
+    h3{
+    	font-size: 200%;
+    }
+    h4{
+    	font-size: 230%;
+    }
+    div {
+    	clear: both;
+    }
+    p{
+    	font-size: 200%;
+    }
+    .menu a h3{
+    	width: 180px;
+    }
+    .photo-text, .photo{
+    	width:100%;
+    }
+    .interest{
+    	width:100%;
+    	padding:0 0 0 0;
+    }
+    .spoiler summary{
+	margin:2% 0 2% 0;
+	font-size:200%;
+	font-weight:600;
+	}
+}
